@@ -1,0 +1,77 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	width: 960px;
+}
+header{
+	background-image: url(../img/150401115947-coffee-super-169.jpg);
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+header h1{
+	color: white;
+	margin-left: 20px;
+	font-size: 50px;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	width: 160px;
+	background-color: #E61013;
+	color: white;
+	text-align: center;
+	display: block;
+	padding: 12px 0;
+}
+nav a:hover{
+	background-color: black;
+	transition: 0.5s;
+	opacity: .8;
+}
+h2{
+	font-size: 30px;
+	color: #9D0306;
+	margin-bottom: 20px;
+}
+aside{
+	float: right;
+	width: 280px;
+	background-color: tan;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 20px;
+/*	display: block;*/
+	margin-bottom: 90px;
+	
+}
+.img-left{
+	float: left;
+	margin-right: 20px;
+}
+.text1{
+	font-size: 17px;
+}
+section{
+	margin-bottom: 30px;
+}
+footer nav a{
+	color: darkgrey;
+	background-color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer nav a:hover{
+	color: black;
+	background-color: white;
+}
